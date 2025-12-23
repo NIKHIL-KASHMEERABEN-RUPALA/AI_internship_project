@@ -1,0 +1,19 @@
+version: "2.0"
+intents:
+  - tech
+  - arts
+  - commerce
+  - others
+
+responses:
+  utter_tech:
+    - text: "You might enjoy a career in Software Development, Data Science, or Engineering."
+  utter_arts:
+    - text: "You might consider careers in Fine Arts, Photography, or Graphic Design."
+  utter_commerce:
+    - text: "You could explore careers in Business Management, Finance, or Marketing."
+  utter_others:
+    - text: "Let's figure it out together! Could you tell me more about your interests?"
+    
+actions:
+  - action_recommend_career
