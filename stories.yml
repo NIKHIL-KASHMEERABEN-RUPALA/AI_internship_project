@@ -1,0 +1,21 @@
+version: "2.0"
+stories:
+  - story: tech path
+    steps:
+      - intent: tech
+      - action: utter_tech
+
+  - story: arts path
+    steps:
+      - intent: arts
+      - action: utter_arts
+
+  - story: commerce path
+    steps:
+      - intent: commerce
+      - action: utter_commerce
+
+  - story: others path
+    steps:
+      - intent: others
+      - action: utter_others
