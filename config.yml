@@ -1,0 +1,8 @@
+version: "2.0"
+language: "en"
+pipeline:
+  - name: "WhitespaceTokenizer"
+  - name: "RegexFeaturizer"
+  - name: "CRFEntityExtractor"
+  - name: "CountVectorsFeaturizer"
+  - name: "EmbeddingIntentClassifier"
