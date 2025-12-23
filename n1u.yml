@@ -1,0 +1,26 @@
+version: "2.0"
+nlu:
+  - intent: tech
+    examples: |
+      - I am interested in technology.
+      - I like coding.
+      - I want to work in tech.
+      - I enjoy software development.
+      
+  - intent: arts
+    examples: |
+      - I like painting.
+      - I want to pursue a career in arts.
+      - I am passionate about photography.
+      
+  - intent: commerce
+    examples: |
+      - I am interested in business.
+      - I want to pursue a career in commerce.
+      - I enjoy economics and finance.
+      
+  - intent: others
+    examples: |
+      - I don't know what career to choose.
+      - I am still confused about my career.
+      - What are the best career options for me?
